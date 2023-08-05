@@ -1,5 +1,5 @@
 
-def cubic_time(arr):  #N * N * N = N^3.
+def cubic_time(arr):  #N * N * N = O(N^3).
     n = len(arr)
     growth = 0
     

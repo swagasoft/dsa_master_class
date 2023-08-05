@@ -1,5 +1,8 @@
 
-def print_all(arr):# O(n) time complexity
+def print_all(arr):# O(n) time complexity O(n) + O(n) = 2O(2n) = O
+    for item in arr:
+        print(item)
+        
     for item in arr:
         print(item)
         

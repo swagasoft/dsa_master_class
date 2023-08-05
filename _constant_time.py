@@ -9,6 +9,7 @@ print("result ", result)
 
 
 
+
 def is_even(number): # O(1) time complexity
     if(number % 2 == 0):
         return True
@@ -17,6 +18,7 @@ def is_even(number): # O(1) time complexity
     
 result2 = is_even(45)
 print("result2 ", result2)
+
 
 
 
@@ -29,3 +31,8 @@ def get_first_element(lst): # O(1) time complexity
 lst = [4,6,8,5]
 result3 = get_first_element(lst)
 print("result3 ", result3)
+
+
+def example():
+    for x in range(10000):
+     print(x)
